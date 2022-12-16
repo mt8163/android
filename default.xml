@@ -1202,6 +1202,7 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" remote="aosp" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
 
+  <include name="snippets/mt8163.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
 </manifest>
