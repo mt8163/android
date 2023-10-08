@@ -5,6 +5,7 @@
 
     <!-- Kernel sources -->
     <project name="mt8163/android_kernel_amazon_karnak_4.9" path="kernel/amazon/karnak" remote="github" revision="lineage-20.0"/>
+    <project name="mt8163/android_prebuilts_linaro" path="prebuilts/linaro" remote="github" revision="lineage-20.0" />
 
     <!-- Vendor trees -->
     <project name="mt8163/android_vendor_amazon_karnak" path="vendor/amazon/karnak" remote="github" revision="lineage-20.0"/>
