@@ -2,7 +2,7 @@
 <manifest>
 
     <!-- Device Tree -->
-    <project name="android_device_amazon_karnak" path="device/amazon/karnak" remote="github" revision="udc"/>
+    <project name="android_device_amazon_karnak" path="device/amazon/karnak" remote="github" revision="android-14.0.0"/>
 
     <!-- Kernel sources -->
     <project name="android_kernel_amazon_karnak_4.9" path="kernel/amazon/karnak" remote="github" revision="lineage-20.0"/>
@@ -39,8 +39,4 @@
   <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="lineage" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="lineage" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="pdk-fs" remote="lineage" />
-  <project path="external/chromium-webview/prebuilt/arm" name="android_external_chromium-webview_prebuilt_arm" groups="pdk" revision="main" remote="lineage" />
-  <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" groups="pdk" revision="main"  remote="lineage"/>
-  <project path="external/chromium-webview/prebuilt/x86" name="android_external_chromium-webview_prebuilt_x86" groups="pdk" revision="main" remote="lineage" />
-  <project path="external/chromium-webview/prebuilt/x86_64" name="android_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="main"  remote="lineage"/>
 </manifest>
