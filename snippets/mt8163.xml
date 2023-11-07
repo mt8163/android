@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+                
     <!-- Device Tree -->
-    <project name="android_device_amazon_karnak" path="device/amazon/karnak" remote="github" revision="android-14.0.0"/>
+    <project name="android_device_amazon_karnak" path="device/amazon/karnak" remote="mt8163" revision="lineage-21.0"/>
 
     <!-- Kernel sources -->
-    <project name="android_kernel_amazon_karnak_4.9" path="kernel/amazon/karnak" remote="github" revision="android-14.0.0"/>
-    <project name="mt8163/android_prebuilts_linaro" path="prebuilts/linaro" remote="github" revision="android-14.0.0" />
+    <project name="android_kernel_amazon_karnak_4.9" path="kernel/amazon/karnak" remote="mt8163" revision="lineage-21.0"/>
+    <project name="android_prebuilts_linaro" path="prebuilts/linaro" remote="mt8163" revision="lineage-21.0" />
     
     <!-- Vendor trees -->
-    <project name="android_vendor_amazon_karnak" path="vendor/amazon/karnak" remote="github" revision="android-14.0.0"/>
-    <project name="android_vendor_amazon_mt8163" path="vendor/amazon/mt8163" remote="github" revision="android-14.0.0"/>
-    <project name="android_vendor_raffy" path="vendor/raffy" remote="github" revision="android-14.0.0"/>
+    <project name="android_vendor_amazon_karnak" path="vendor/amazon/karnak" remote="mt8163" revision="lineage-21.0"/>
+    <project name="android_vendor_amazon_mt8163" path="vendor/amazon/mt8163" remote="mt8163" revision="lineage-21.0"/>
+    <project name="android_vendor_raffy" path="vendor/raffy" remote="mt8163" revision="lineage-21.0"/>
     
   <!-- Prebuilts repos -->
   <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" remote="pixel" clone-depth="1" />
@@ -38,5 +38,5 @@
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="lineage" />
   <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="lineage" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="lineage" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="pdk-fs" remote="lineage" />
+  <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" groups="pdk-fs" remote="lineage" />
 </manifest>
